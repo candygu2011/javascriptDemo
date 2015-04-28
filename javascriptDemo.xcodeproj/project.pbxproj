@@ -21,6 +21,10 @@
 		D084C1B0183D9C27006E7EF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D084C192183D9C27006E7EF7 /* UIKit.framework */; };
 		D084C1B8183D9C27006E7EF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D084C1B6183D9C27006E7EF7 /* InfoPlist.strings */; };
 		D084C1BA183D9C27006E7EF7 /* javascriptDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D084C1B9183D9C27006E7EF7 /* javascriptDemoTests.m */; };
+		D084C1C5183D9DA9006E7EF7 /* man.html in Resources */ = {isa = PBXBuildFile; fileRef = D084C1C3183D9DA9006E7EF7 /* man.html */; };
+		D084C1C6183D9DA9006E7EF7 /* yuanzhu3D.html in Resources */ = {isa = PBXBuildFile; fileRef = D084C1C4183D9DA9006E7EF7 /* yuanzhu3D.html */; };
+		D084C1C8183D9DB1006E7EF7 /* ichart.1.2.1.src.js in Resources */ = {isa = PBXBuildFile; fileRef = D084C1C7183D9DB1006E7EF7 /* ichart.1.2.1.src.js */; };
+		D084C1CA183DA449006E7EF7 /* top_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D084C1C9183DA449006E7EF7 /* top_bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		D084C1B5183D9C27006E7EF7 /* javascriptDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "javascriptDemoTests-Info.plist"; sourceTree = "<group>"; };
 		D084C1B7183D9C27006E7EF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D084C1B9183D9C27006E7EF7 /* javascriptDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = javascriptDemoTests.m; sourceTree = "<group>"; };
+		D084C1C3183D9DA9006E7EF7 /* man.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = man.html; sourceTree = "<group>"; };
+		D084C1C4183D9DA9006E7EF7 /* yuanzhu3D.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = yuanzhu3D.html; sourceTree = "<group>"; };
+		D084C1C7183D9DB1006E7EF7 /* ichart.1.2.1.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ichart.1.2.1.src.js; sourceTree = "<group>"; };
+		D084C1C9183DA449006E7EF7 /* top_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +134,10 @@
 		D084C195183D9C27006E7EF7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D084C1C9183DA449006E7EF7 /* top_bg.png */,
+				D084C1C7183D9DB1006E7EF7 /* ichart.1.2.1.src.js */,
+				D084C1C3183D9DA9006E7EF7 /* man.html */,
+				D084C1C4183D9DA9006E7EF7 /* yuanzhu3D.html */,
 				D084C196183D9C27006E7EF7 /* javascriptDemo-Info.plist */,
 				D084C197183D9C27006E7EF7 /* InfoPlist.strings */,
 				D084C19A183D9C27006E7EF7 /* main.m */,
@@ -228,9 +240,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D084C1C8183D9DB1006E7EF7 /* ichart.1.2.1.src.js in Resources */,
+				D084C1C6183D9DA9006E7EF7 /* yuanzhu3D.html in Resources */,
 				D084C1A7183D9C27006E7EF7 /* Images.xcassets in Resources */,
+				D084C1CA183DA449006E7EF7 /* top_bg.png in Resources */,
 				D084C199183D9C27006E7EF7 /* InfoPlist.strings in Resources */,
 				D084C1A2183D9C27006E7EF7 /* Main.storyboard in Resources */,
+				D084C1C5183D9DA9006E7EF7 /* man.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

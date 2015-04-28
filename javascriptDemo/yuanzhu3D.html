@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>xx男女比例圆形饼状图</title>
+    <script type="text/javascript" src="ichart.1.2.1.src.js"></script>
+    <script type="text/javascript">
+        var chart;
+        $(function(){
+            var data=[
+                {
+                    name:'男',
+                    value:'24',
+                    color:'#1f7e92'
+                },
+                {
+                    name:'女',
+                    value:'3',
+                    color:'#c72290'
+                }
+            ];
+            chart=new iChart.Pie3D({
+                render:'duck-clavicle',
+                title:'xx软件男女比例3D饼状图',
+                footnote:'royasoft.com.cn',
+                data:data,
+                animation:true,
+                width:800,
+                height:400,
+                showpercent:true,
+                animation_duration:'1000',
+                sub_option:{
+                    label:{
+                        background_color:null,
+                        sign:false,
+                        border:{
+                            enable:false,
+                            color:'#666666'
+                        }
+                    },
+                    border:{
+                        color:'#ffffff'
+                    }
+
+                }
+
+            });
+            chart.draw();
+        });
+
+    </script>
+</head>
+<body>
+    <div id='duck-clavicle'></div>
+</body>
+</html>

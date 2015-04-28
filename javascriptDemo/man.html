@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>xx公司男女比例图</title>
+    <script type="text/javascript" src="ichart.1.2.1.src.js"></script>
+    <script type="text/javascript">
+        var chart;
+        
+        $(function(){
+            var data=[
+                {
+                    name:'man',
+                    value:'24',
+                    color:'#1f7e92'
+                },
+                {
+                    name:'woman',
+                    value:'3',
+                    color:'#a5c2d5'
+                }
+            ];
+            chart=new iChart.Column2D({
+                render:'manProportion',
+                data:data,
+                title:'xx公司男女比例图',
+                width:800,
+                height:400,
+                labels:['男','女'],
+                animation:true,
+                animation_duration:1000
+
+            });
+            chart.draw();
+        });
+        function setNewData(data){
+            var jsonObjec=eval(data);
+            chart.push("data",jsonObjec);
+            chart.setUp();
+            chart.draw();
+        }
+    </script>
+</head>
+<body>
+    <div id="manProportion"></div>
+</body>
+</html>
